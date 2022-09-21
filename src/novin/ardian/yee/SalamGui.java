@@ -4,7 +4,6 @@ package novin.ardian.yee;
  * @author Novin on 14/09/2022
  * @project belajar-java-oop
  */
-
 import javax.swing.JOptionPane;
 
 public class SalamGui {
