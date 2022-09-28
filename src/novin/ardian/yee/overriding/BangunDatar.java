@@ -72,7 +72,7 @@ class Segitiga extends BangunDatar {
 
     @Override
     float keliling() {
-        return (float) ((float) alas + tinggi + Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2)));
+        return (float) (alas + tinggi + Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2)));
     }
 }
 
