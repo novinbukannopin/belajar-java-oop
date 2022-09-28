@@ -12,6 +12,14 @@ public class Data {
         this.num2 = num2;
     }
 
+    public double getNum1() {
+        return num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+
     public double divide(){
         if (num2 == 0){
             throw new ArithmeticException("Cant divided by zero");
