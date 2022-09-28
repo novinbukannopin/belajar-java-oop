@@ -49,8 +49,7 @@ class Lingkaran extends BangunDatar {
 }
 
 class PersegiPanjang extends BangunDatar {
-    float panjang;
-    float lebar;
+    float panjang, lebar;
 
     @Override
     float luas() {
