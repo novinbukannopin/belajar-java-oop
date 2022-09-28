@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Keliling PersegiPanjang = " + persegiPanjang.luas());
 
         Segitiga segitiga = new Segitiga();
-        segitiga.tinggi = 6;
+        segitiga.tinggi = 12;
         segitiga.alas = 9;
         System.out.println("Luas Segitiga           = " + segitiga.luas());
         System.out.println("Keliling Segitiga       = " + segitiga.keliling());
