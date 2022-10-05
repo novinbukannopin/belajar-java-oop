@@ -6,7 +6,10 @@ package novin.ardian.yee.konstruk;
  */
 public class UserMain {
     public static void main(String[] args) {
-        User user = new User(null);
+        User user = new User("novin");
         user.sayHello(null);
+        System.out.println(user.getFirstName());
+        System.out.println(user.getLastName());
+
     }
 }
