@@ -9,10 +9,12 @@ class Person {
     }
 
     Person(String paramName) {
+
         this(paramName, null);
     }
 
     Person() {
+
         this(null);
     }
 

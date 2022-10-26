@@ -26,4 +26,6 @@ public class Product implements ProductInterface {
     public void setRegularPrice(double regularPrice) {
         this.regularPrice = regularPrice;
     }
+//
+
 }
